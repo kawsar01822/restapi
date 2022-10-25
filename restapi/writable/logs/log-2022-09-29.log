@@ -1,0 +1,63 @@
+CRITICAL - 2022-09-29 13:58:25 --> Undefined property: App\Libraries\Oauth::$Server
+in APPPATH\Libraries\Oauth.php on line 20.
+ 1 APPPATH\Libraries\Oauth.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Libraries\\Oauth::$Server', 'APPPATH\\Libraries\\Oauth.php', 20)
+ 2 APPPATH\Libraries\Oauth.php(10): App\Libraries\Oauth->init()
+ 3 APPPATH\Controllers\UserController.php(15): App\Libraries\Oauth->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:59:28 --> Class "Oauth2\Response" not found
+in APPPATH\Filters\OauthFilter.php on line 19.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\OauthFilter->before(Object(OAuth2\Request), null)
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('blog', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 14:59:54 --> Class "Oauth2\Response" not found
+in APPPATH\Filters\OauthFilter.php on line 19.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\OauthFilter->before(Object(OAuth2\Request), null)
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('blog', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:00:54 --> Class "Oauth2\Response" not found
+in APPPATH\Filters\OauthFilter.php on line 19.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\OauthFilter->before(Object(OAuth2\Request), null)
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('blog', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:01:23 --> Class "Oauth2\Response" not found
+in APPPATH\Filters\OauthFilter.php on line 19.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\OauthFilter->before(Object(OAuth2\Request), null)
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('blog', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:01:31 --> Class "Oauth2\Response" not found
+in APPPATH\Filters\OauthFilter.php on line 19.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\OauthFilter->before(Object(OAuth2\Request), null)
+ 2 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('blog', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:43:10 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\BlogController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BlogController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:49:12 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\BlogController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BlogController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:49:32 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\BlogController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BlogController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 15:55:10 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\BlogController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BlogController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
